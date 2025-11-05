@@ -1,0 +1,65 @@
+body {
+    background-color: #abd2fa;
+    font-family: 'lobster Two', Raleway, arial;
+}
+
+.blurb h2 {
+    color: #7692ff;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    color: #3d518c;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #7692ff;
+}
+
+#mainNavbar .navbar-brand {
+    color: #7692ff;
+    font-size: 1.5rem;
+}
+
+#headinggroup span {
+    color: #7692ff;
+}
+
+#headinggroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #091540;
+    transition: background 500ms;
+}
+
+@media (max-width:1300px) {
+    #headinggroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+#icon {
+    width: 50px;
+}
